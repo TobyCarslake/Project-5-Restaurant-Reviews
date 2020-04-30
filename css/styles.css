@@ -364,7 +364,7 @@ nav h1 a {
     /* top: 80px; */
     height: 400px;
     display: block;
-    padding: 106px 0px 0px;
+    padding: 131px 0px 0px;
     /* bottom: 0; */
     width: 100%;
     margin: auto;
@@ -394,11 +394,11 @@ nav h1 a {
     margin: auto;
     
   }
-  #reviews-container {
-    /* display: flex;
-    flex-direction: column; */
+  /* #reviews-container {
+    display: flex;
+    flex-direction: column;
     
-  }
+  } */
   /* filter menu on main page for smaller screens */
   .filter-options {
     width: 100%;
