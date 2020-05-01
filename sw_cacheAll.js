@@ -1,4 +1,4 @@
-const cacheName = 'restaurantSiteCache';
+const cacheName = 'difcache2';
 
 //call install event
 self.addEventListener('install', z => {

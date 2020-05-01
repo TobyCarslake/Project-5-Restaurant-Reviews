@@ -128,6 +128,7 @@ fillReviewsHTML = (reviews = self.restaurant.reviews) => {
   const container = document.getElementById('reviews-container');
   const title = document.createElement('h2');
   title.innerHTML = 'Reviews';
+  title.tabIndex = 1;
   container.appendChild(title);
 
   if (!reviews) {
@@ -147,9 +148,10 @@ fillReviewsHTML = (reviews = self.restaurant.reviews) => {
  * Create review HTML and add it to the webpage.
  */
 createReviewHTML = (review) => {
-  const li = document.createElement('li');
+  const li = document.createElement('li');      
   const name = document.createElement('p');
   name.innerHTML = review.name;
+  li.tabIndex = 1;
   li.appendChild(name);
 
   const date = document.createElement('p');
